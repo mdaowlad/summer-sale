@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Document</title>
+</head>
+<body>
+ 
+   <header>
+    <nav>
+      <div class="bg-rose-300 px-24 py-4 flex justify-between items-center">
+        <h1 class="text-3xl font-bold text-white">Logo </h1>
+        <ul class="flex items-center">
+          <li class="mr-4 "><a class="text-lg text-white font-semibold" href="">Home</a></li>
+          <li class="mr-4"><a class="text-lg text-white font-semibold" href="">Products</a></li>
+          <li class="mr-4"><a class="text-lg text-white font-semibold" href="">About</a></li>
+        <button class="bg-pink-500 px-6 py-2 text-lg font-semibold text-white rounded-md hover:bg-blue-500">sign in</button>
+        </ul>
+      </div>
+    </nav>
+    <div class=" bg-gradient-to-r from-cyan-300 to-blue-50 grid grid-cols-1 lg:grid-cols-2 items-center gap-4 px-4 lg:px-32">
+      <div class="contant text-center bg-red-100 py-2 rounded-md">
+        <span class="text-lg font-semibold text-gray-700">---SALE FEVER---</span>
+        <h1 class="text-3xl font-bold ">Purchase TK 200 or <br>above & get <span class="text-pink-500">20% off</span></h1>
+        <span class="mr-2 mt-4">Use promo Code</span>
+        <button class="btn btn-active btn-secondary mt-4">SELL200</button>
+      </div>
+      <div class="imge-contant ">
+        <img src="./images/Summer 1.png" alt="">
+      </div>
+     </div>
+   </header>
+   <main class="max-w-6xl mx-auto mt-10">
+    <h1 class="text-3xl font-bold mb-10 mt-6">Kithchenware</h1>
+    <div class="container grid grid-cols-4 gap-4 mb-10">
+      <div class="card-contaienr">
+        <div id="card" class="card bg-white shadow-md px-8 py-10">
+          <div class="bg-gray-300 rounded-md flex justify-center py-4">
+            <img src="./images/prod1.png" alt="">
+          </div>
+          <div class="text-center mt-4">
+            <div></div>
+          <h1 class="text-2xl">K.Accessories</h1>
+          <h4 id="field" class="text-gray-600">39.00 tk</h4>
+        </div>
+          </div>
+      </div>
+      <div class="card-contaienr">
+        <div id="card-2" class="card  shadow-md px-8 py-10">
+          <div class="bg-gray-300 rounded-md flex justify-center py-4">
+            <img src="./images/prod3.png" alt="">
+          </div>
+          <div class="text-center mt-4">
+            <div></div>
+          <h1  class="text-2xl">K.Accessories</h1>
+          <h4 id="field2" class="text-gray-600">39.00 tk</h4>
+        </div>
+          </div>
+      </div>
+      <div class="card-contaienr">
+        <div class="card bg-white shadow-md px-8 py-10">
+          <div class="bg-gray-300 rounded-md flex justify-center py-4">
+            <img src="./images/prod4.png" alt="">
+          </div>
+          <div class="text-center mt-4">
+            <div></div>
+          <h1 class="text-2xl">K.Accessories</h1>
+          <h4 class="text-gray-600">39.00 tk</h4>
+        </div>
+          </div>
+      </div>
+      <div class="bg-white shadow-sm h-40">
+        <h1 class="text-2xl text-black font-bold mb-2">Have a coupon?</h1>
+        <input class="bg-slate-300 p-2 rounded-md text-gray-500" type="text" placeholder="coupon code">
+        <button class="bg-pink-500 px-2 py-2 text-white font-semibold">Apply</button>
+        <div class="bg-white shadow-sm  mt-10 h-40">
+         <h1>total: <span id="total"></span></h1>
+         <h1>total: <span id="total2"></span></h1>
+          
+          </div>
+          <div class="bg-white shadow-sm  mt-10 h-40">
+         
+          <button class="w-full bg-pink-500 px-2 py-4 text-lg font-semibold text-white">Make Purchase</button>
+          </div>
+        </div>
+      
+    </div>
+    <section class="max-w-6xl mx-auto mt-10">
+      <h1 class="text-3xl font-bold mb-10 mt-6">Kithchenware</h1>
+      <div class="container grid grid-cols-4 gap-6 mb-10">
+        <div class="card-contaienr">
+          <div class="card bg-white shadow-md px-8 py-10">
+            <div class="bg-gray-300 rounded-md flex justify-center py-4">
+              <img src="./images/prod1.png" alt="">
+            </div>
+            <div class="text-center mt-4">
+              <div></div>
+            <h1 class="text-2xl">K.Accessories</h1>
+            <h4 class="text-gray-600">39.00 tk</h4>
+          </div>
+            </div>
+        </div>
+        <div class="card-contaienr">
+          <div id="card" class="card bg-white shadow-md px-8 py-10">
+            <div class="bg-gray-300 rounded-md flex justify-center py-4">
+              <img src="./images/prod3.png" alt="">
+            </div>
+            <div class="text-center mt-4">
+              <div></div>
+            <h1 class="text-2xl">K.Accessories</h1>
+            <h4 id="field" class="text-gray-600">70.00 tk</h4>
+          </div>
+            </div>
+        </div>
+        <div class="card-contaienr">
+          <div class="card bg-white shadow-md px-8 py-10">
+            <div class="bg-gray-300 rounded-md flex justify-center py-4">
+              <img src="./images/prod2.png" alt="">
+            </div>
+            <div class="text-center mt-4">
+              <div></div>
+            <h1 class="text-2xl">K.Accessories</h1>
+            <h4 class="text-gray-600">39.00 tk</h4>
+          </div>
+            </div>
+        </div>
+       
+      </div>
+    </section>
+
+   </main>
+    <footer></footer>
+  
+  <script>
+    document.getElementById('card').addEventListener('click', function(){
+     const field = document.getElementById('field');
+     const newField = field.innerText;
+     const prieValue= parseFloat(newField);
+     
+     const newFieldValue= document.getElementById('total');
+     
+     newFieldValue.innerText = newField;
+    
+      
+    
+
+
+    })
+  </script>
+  <script>
+    document.getElementById('card-2').addEventListener('click', function(){
+       const fieldValue = document.getElementById('field2');
+       const newFieldValue = fieldValue.innerText;
+       const newValue = parseFloat(newFieldValue);
+       const newFieldValueSet = document.getElementById('total2');
+      newFieldValueSet.innerText= newFieldValue;
+    })
+  </script>
+    
+</body>
+</html>
